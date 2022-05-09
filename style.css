@@ -10,7 +10,6 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     gap: 0px 25px;
-    margin: auto 200px;
 }
   
 .art {
