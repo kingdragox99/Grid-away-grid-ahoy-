@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    background-color: #e6eff6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 0px 25px;
+    margin: auto 200px;
+}
+  
+.art {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 300px;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.27); 
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.27);
+}
+
+.art:hover {
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.31), 0px 0px 27px 7px rgba(75,173,250,0.33), 0px 0px 27px -1px rgba(75,173,250,0.64); 
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.31), 0px 0px 27px 7px rgba(75,173,250,0.33), 0px 0px 27px -1px rgba(75,173,250,0.64);
+}
+
+.imgart{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+h1{
+    margin: 0 15px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #545262;
+}
+
+blockquote{
+    margin: 0 30px;
+    margin-bottom: 30px;
+    color: #9da3ac;
+}
+
+a{
+    margin: 0 auto;
+    text-align: center;
+    padding:  15px 40px;
+    text-decoration: none;
+    color: #778091;
+    border-radius: 100px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+a:hover{
+    margin: 0 auto;
+    text-align: center;
+    padding:  15px 40px;
+    background-color: #4badfa;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 12px 24px -5px rgba(0,0,0,0.3), 0px 12px 31px -1px rgba(75,173,250,0.54); 
+    box-shadow: 0px 12px 24px -5px rgba(0,0,0,0.3), 0px 12px 31px -1px rgba(75,173,250,0.54);
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.deco{
+    margin-bottom: 10px;
+    width: 64px;
+    height: 1px;
+    background-color: #999999;
+}
